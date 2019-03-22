@@ -547,7 +547,7 @@ section h3.section-subheading {
 
 @media(min-width:768px) {
     .timeline:before {
-        left: 50%;
+        left: 100%;
     }
 
     .timeline>li {
@@ -646,6 +646,7 @@ section h3.section-subheading {
     margin-top: 25px;
     margin-bottom: 0;
     text-transform: none;
+
 }
 
 .team-member p {
