@@ -1,6 +1,6 @@
 ---
-title: CBT
-subtitle: Cognitive behavioral therapy
+title: CBT - Cognitive behavioral therapy
+subtitle: 
 layout: default
 modal-id: 1
 date: 2014-07-18
