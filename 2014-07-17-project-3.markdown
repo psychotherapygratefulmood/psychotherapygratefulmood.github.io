@@ -1,0 +1,15 @@
+---
+title: Online communication platforms
+subtitle:
+layout: default
+modal-id: 3
+date: 2014-08-17
+img: escape.png
+thumbnail: escape-thumbnail.png
+alt: image-alt
+project-date: April 2014
+client: Start Bootstrap
+category: psychotherapy
+
+---
+

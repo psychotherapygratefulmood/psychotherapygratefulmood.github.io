@@ -349,3 +349,110 @@ Craig A Childress, Pepperdine University, 3741 Foxglen Ave, La Verne CA 91759, U
         </div>
     </div>
 {% endfor %}
+
+
+{% for post in site.categories.post3 %}
+    <div class="portfolio-modal modal fade" id="portfolioModal{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>{{ post.title }}</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            <p>{{ post.description }}</p>
+
+
+
+
+
+
+<p>When it comes to online communication, choosing the platform that is the most suited for you, can be a tricky thing to do. Here are some elements to take into consideration when choosing a communication provider:</p>
+<ul>
+<li>
+<p><strong>Performance</strong> - different apps have different levels of technical performance, especially when it comes to video conferencing. Make sure to test the applications before, in order to get an idea about the differences in connection delay and clarity of sound or image.</p>
+</li>
+<li>
+<p><strong>Data protection</strong> - apps have different levels of data protection, raging from no protection at all, to end-to-end encryption, from proprietory to free and open source software.</p>
+</li>
+<li>
+<p><strong>Cost</strong> - paid or unpaid;</p>
+</li>
+<li>
+<p><strong>Features</strong> - some apps are all-in-one, providing video calls, voice calls and instant chat;</p>
+</li>
+<li>
+<p><strong>Devices</strong> - some applications only work on computers, some only on mobile devices.</p>
+</li>
+</ul>
+<ol>
+<li><strong>Signal</strong></li>
+</ol>
+<p><strong>Features</strong>: video calling, voice calling, messaging;<br>
+<strong>Performance</strong>: medium in video calling, high in voice calling and messaging;<br>
+<strong>Data protection</strong>: high; published as free and open-source software under the General Public License (GPLv3); the server code is published under the Affero General Public License (AGPLv3); the server is centralised;<br>
+<strong>Cost</strong>: unpaid;<br>
+<strong>Devices</strong>: computer, phone;</p>
+<ol start="2">
+<li><strong>Skype</strong></li>
+</ol>
+<p><strong>Features</strong>: video calling, voice calling, messaging;<br>
+<strong>Performance</strong>: medium-high;<br>
+<strong>Data protection</strong>: medium; proprietory protocol; the specifications have not been made publicly available by Skype and official applications using the protocol are closed-source; Signaling is encrypted using RC4. Voice data is encrypted with AES;<br>
+<strong>Cost</strong>: unpaid;<br>
+<strong>Devices</strong>: computer, phone;</p>
+<ol start="3">
+<li><strong>Linphone</strong></li>
+</ol>
+<p><strong>Features</strong>: video calling, voice calling, messaging;<br>
+<strong>Performance</strong>: medium in video and voice calling, high in messaging;<br>
+<strong>Data protection</strong>: very high; Linphone is licensed under the GNU General Public License (GPL); the server is decentralised;<br>
+<strong>Cost</strong>: unpaid;<br>
+<strong>Devices</strong>: computer, phone;</p>
+<ol start="4">
+<li><strong>E-mail</strong></li>
+</ol>
+<p><strong>Features</strong>: messaging;<br>
+<strong>Performance</strong>: high;<br>
+<strong>Data protection</strong>: depends; if encrypted using public/private keys, data protection is very high; if non-encrypted, data protectin is low; !!Ask for my public key, if you want to send me encrypted e-mails!!<br>
+<strong>Cost</strong>: unpaid;<br>
+<strong>Devices</strong>: computer, phone;</p>
+<ol start="5">
+<li><strong>WhatsApp</strong></li>
+</ol>
+<p><strong>Features</strong>: video calling, voice calling, messaging;<br>
+<strong>Performance</strong>: medium;<br>
+<strong>Data protection</strong>: very low; owned by Facebook; proprietary software; no agreement upon set of rights or license;<br>
+<strong>Cost</strong>: unpaid;<br>
+<strong>Devices</strong>: phone;</p>
+
+
+
+ <ul class="list-inline item-details">
+                                
+                                <li>Date:
+                                    <strong><a>{{ post.project-date }}</a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a>{{ post.category }}</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endfor %}
+
+
